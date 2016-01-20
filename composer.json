@@ -18,9 +18,9 @@
 	"require": {
 		"php": ">=5.3.3",
 		"composer/installers": "*",
-		"silverstripe/framework": "dev-hamaka-master",
-		"silverstripe/reports": "dev-hamaka-master",
-		"silverstripe/siteconfig": "dev-hamaka-master"
+		"silverstripe/framework": "dev-hamaka-stable",
+		"silverstripe/reports": "dev-hamaka-stable",
+		"silverstripe/siteconfig": "dev-hamaka-stable"
 	},
 	"autoload": {
 		"classmap": ["tests/behat/"]
