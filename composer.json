@@ -18,7 +18,7 @@
 	"require": {
 		"php": ">=5.3.3",
 		"composer/installers": "*",
-		"silverstripe/framework": "~3.2",
+		"silverstripe/framework": "dev-hamaka-master",
 		"silverstripe/reports": "dev-hamaka-master",
 		"silverstripe/siteconfig": "dev-hamaka-master"
 	},
