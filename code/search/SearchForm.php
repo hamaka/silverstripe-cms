@@ -129,7 +129,18 @@ class SearchForm extends Form {
 			}
 		}
 
-		$keywords = $data['Search'];
+		// start Hamaka hmk custom we willen geen error krijgen als je de searchform url rechtstreeks aanroept zonder Search in $_REQUEST
+		//$keywords = $data['Search'];
+		if(isset($data['Search']))
+		{
+			$keywords = $data['Search'];
+		}
+		else
+		{
+			$keywords = '';
+		}
+		// einde Hamaka hmk custom
+
 
 	 	$andProcessor = create_function('$matches','
 	 		return " +" . $matches[2] . " +" . $matches[4] . " ";
